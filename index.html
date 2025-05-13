@@ -10,24 +10,27 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #0d1117;
       color: #c9d1d9;
-      line-height: 1.6;
+      line-height: 1.7;
     }
     header {
       background: #161b22;
-      padding: 2.5rem 1rem;
+      padding: 4rem 1rem;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 3rem;
+      font-size: 3.5rem;
+      color: #58a6ff;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       color: #8b949e;
+      max-width: 700px;
+      margin: 1rem auto 0;
     }
     section {
       max-width: 900px;
-      margin: 2rem auto;
+      margin: 3rem auto;
       padding: 0 1rem;
     }
     h2 {
@@ -35,12 +38,13 @@
       padding-bottom: 0.3rem;
       margin-bottom: 1rem;
       color: #58a6ff;
+      font-size: 1.6rem;
     }
     ul {
       padding-left: 1.2rem;
     }
     li {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.6rem;
     }
     strong {
       color: #c9d1d9;
@@ -51,6 +55,23 @@
     }
     a:hover {
       text-decoration: underline;
+    }
+    .cta {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #238636;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta:hover {
+      background-color: #2ea043;
+    }
+    .subtext {
+      color: #8b949e;
+      font-size: 0.95rem;
     }
     footer {
       text-align: center;
@@ -63,92 +84,97 @@
 <body>
   <header>
     <h1>Allan</h1>
-    <p>Senior Data Engineer | Azure & GCP | Building Intelligent, Scalable Data Systems</p>
+    <p>Senior Data Engineer building intelligent, scalable, cloud-native data systems across Azure & GCP</p>
+    <a href="https://github.com/allanmoments" target="_blank" class="cta">📂 View My GitHub</a>
   </header>
 
   <section>
-    <h2>About Me</h2>
+    <h2>👋 About Me</h2>
     <p>
-      I’m a cloud-native data engineer passionate about transforming data into actionable intelligence. I specialize in designing high-performance, scalable, and governed data pipelines using modern cloud and open-source tooling. I’ve worked across Azure and Google Cloud to deliver production-grade data lakes, real-time pipelines, machine learning platforms, and business intelligence systems.
+      I’m a senior data engineer with a passion for solving complex data problems using modern cloud platforms and open-source tools. From data lakes to ML pipelines, I design systems that scale, adapt, and empower teams with real-time, actionable insights.
+    </p>
+    <p>
+      I thrive in cloud-native environments, with deep hands-on experience across Microsoft Azure and Google Cloud. My work spans everything from raw ingestion and transformation to orchestration, analytics, and AI.
     </p>
   </section>
 
   <section>
-    <h2>Cloud Platforms</h2>
+    <h2>☁️ Cloud Platforms</h2>
     <ul>
-      <li><strong>Microsoft Azure:</strong> Synapse Analytics, Data Factory, Azure Data Lake Storage, Azure Purview, Azure AI, Azure Compute & Storage</li>
-      <li><strong>Google Cloud Platform (GCP):</strong> BigQuery, Cloud Storage, Dataflow, Pub/Sub, Looker, Vertex AI</li>
+      <li><strong>Microsoft Azure:</strong> Synapse, Data Factory, ADLS, Purview, Azure AI</li>
+      <li><strong>GCP:</strong> BigQuery, Dataflow, Pub/Sub, Looker, Vertex AI</li>
     </ul>
   </section>
 
   <section>
-    <h2>Data Engineering Tools</h2>
+    <h2>🧰 Data Engineering Stack</h2>
     <ul>
-      <li>Microsoft Fabric: Synapse, Pipelines, Notebooks, Spark Pools</li>
-      <li>Databricks: PySpark, Delta Lake</li>
-      <li>Apache Airflow (workflow orchestration)</li>
-      <li>ETL/ELT pipeline design and optimization</li>
-      <li>Data Lakehouse Architecture</li>
-      <li>dbt (data build tool) for data modeling & transformation</li>
+      <li>Microsoft Fabric: Synapse, Pipelines, Spark Pools</li>
+      <li>Databricks: Delta Lake, PySpark</li>
+      <li>Apache Airflow for orchestration</li>
+      <li>dbt for modular transformation and modeling</li>
+      <li>Lakehouse architecture implementation</li>
     </ul>
   </section>
 
   <section>
-    <h2>Programming & Scripting</h2>
+    <h2>💻 Programming & Scripting</h2>
     <ul>
-      <li>Python: PySpark, Pandas, NumPy</li>
-      <li>SQL: Advanced T-SQL, query optimization, stored procedures</li>
-      <li>Shell scripting & automation</li>
+      <li>Python (PySpark, Pandas, NumPy)</li>
+      <li>Advanced SQL (T-SQL, performance tuning)</li>
+      <li>Shell scripting and process automation</li>
     </ul>
   </section>
 
   <section>
-    <h2>Databases</h2>
+    <h2>🗄️ Databases</h2>
     <ul>
-      <li>Relational: SQL Server, PostgreSQL</li>
-      <li>NoSQL: MongoDB, Cosmos DB</li>
+      <li>SQL Server, PostgreSQL</li>
+      <li>MongoDB, Cosmos DB</li>
     </ul>
   </section>
 
   <section>
-    <h2>DevOps & Infrastructure</h2>
+    <h2>⚙️ DevOps & Infra</h2>
     <ul>
-      <li>Docker & Kubernetes</li>
-      <li>CI/CD: Git, GitHub, Jenkins</li>
-      <li>Version control & automation</li>
+      <li>Docker & Kubernetes for containerization</li>
+      <li>CI/CD pipelines with GitHub Actions, Jenkins</li>
+      <li>Git version control and automation</li>
     </ul>
   </section>
 
   <section>
-    <h2>Analytics & Machine Learning</h2>
+    <h2>📊 Analytics & ML</h2>
     <ul>
-      <li>Power BI & Looker for visualization</li>
-      <li>Statistical modeling and forecasting</li>
-      <li>Machine Learning: Regression, Classification, Clustering</li>
-      <li>MLOps pipelines for deploying and monitoring ML models</li>
+      <li>Power BI & Looker dashboards</li>
+      <li>Statistical modeling, regression, clustering</li>
+      <li>MLOps pipelines for production ML deployment</li>
     </ul>
   </section>
 
   <section>
-    <h2>Certifications</h2>
+    <h2>🎓 Certifications</h2>
     <ul>
       <li>Microsoft Certified: Fabric Data Engineer Associate</li>
-      <li>Microsoft Certified: Fabric Analytics Engineer Associate</li>
-      <li>Microsoft Certified: Power BI Data Analyst Associate</li>
-      <li>Microsoft Certified: Azure Data Fundamentals</li>
-      <li>Microsoft Certified: Azure AI Fundamentals</li>
-      <li>CompTIA DataX</li>
-      <li>Six Sigma Black Belt – International Six Sigma Institute</li>
+      <li>Fabric Analytics Engineer Associate</li>
+      <li>Power BI Data Analyst Associate</li>
+      <li>Azure Data & AI Fundamentals</li>
+      <li>CompTIA DataX, Six Sigma Black Belt</li>
     </ul>
   </section>
 
   <section>
-    <h2>Let’s Connect</h2>
-    <p>GitHub: <a href="https://github.com/allanmoments" target="_blank">github.com/allanmoments</a></p>
+    <h2>📫 Let’s Connect</h2>
+    <p>
+      I’m currently open to new roles in data engineering, platform architecture, and ML infra. If you're building something ambitious — let's talk.
+    </p>
+    <p>📧 Email: <a href="mailto:allanzablon@gmail.com">allanzablon@gmail.com</a></p>
+    <p>🌐 GitHub: <a href="https://github.com/allanmoments" target="_blank">github.com/allanmoments</a></p>
+    <p class="subtext">Available for contract, remote, and full-time opportunities.</p>
   </section>
 
   <footer>
-    © 2025 Allan. Built with care, powered by GitHub Pages.
+    © 2025 Allan. Built with purpose. Deployed with GitHub Pages.
   </footer>
 </body>
 </html>
